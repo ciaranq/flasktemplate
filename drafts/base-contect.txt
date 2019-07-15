@@ -569,7 +569,8 @@
     <script src="{{ url_for('static', filename='lib/waypoints/waypoints.min.js') }}"></script>
     <script src="{{ url_for('static', filename='lib/counterup/counterup.min.js') }}"></script>
     <script src="{{ url_for('static', filename='lib/superfish/hoverIntent.js') }}"></script>
-    <script src="{{ url_for('static', filename='lib/superfish/superfish.min.js') }}"></script> -->
+    <script src="{{ url_for('static', filename='lib/superfish/superfish.min.js') }}"></script>
+    
 
 
 

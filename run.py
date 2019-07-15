@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template("index.html")
+    return render_template("index.html", page_title="Heh Welcome Y'all", page_heading="We are team of awesome designers making websites with Full Stack stuff", list_stuff_wedo=["Bootstrap", "Django", "Flask", "Python", "Javascript"])
 
 
 @app.route('/about')
