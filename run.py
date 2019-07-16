@@ -1,5 +1,4 @@
 #! /usr/local/bin/python3
-
 # Ciarans template on flask
 
 import os
@@ -23,9 +22,9 @@ def contact():
     return render_template("contact.html")
 
 
-@app.route('/careers')
-def careers():
-    return render_template("careers.html")
+@app.route('/magento')
+def magento():
+    return render_template("magento.html")
 
 
 if __name__ == '__main__':

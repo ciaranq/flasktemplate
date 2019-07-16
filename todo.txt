@@ -1,0 +1,6 @@
+To do for project 3
+
+add a magento page
+
+with javascript api stuff
+
