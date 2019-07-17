@@ -4,3 +4,7 @@ add a magento page
 
 with javascript api stuff
 
+fix static path
+resixe the logos
+
+testing process

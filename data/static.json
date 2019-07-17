@@ -1,0 +1,27 @@
+[{
+        "name": "HTML5",
+        "description": "HTML 5 is at the core of every web page, regardless the complexity of a site or number of technologies involved. It's an essential skill for any web professional. It's the starting point for anyone learning how to create content for the web. ",
+        "image_source": "static/img/logo-html5.png",
+        "url": "html"
+
+    },
+    {
+        "name": "CSS",
+        "description": "CSS stands for Cascading Style Sheets. This programming language dictates how the HTML elements of a website should actually appear on the frontend of the page.",
+        "image_source": "static/img/logo-CSS3.png",
+        "url": "css"
+    },
+    {
+        "name": "JavaScript",
+        "description": "JavaScript is a more complicated language than HTML or CSS, and it wasn't released in beta form until 1995. Nowadays, JavaScript is supported by all modern web browsers and is used on almost every site on the web for more powerful and complex functionality.",
+        "image_source": "static/img/logo-javascript.png",
+        "url": "javascript"
+    },
+    {
+        "name": " ",
+        "description": " ",
+        "image_source": "",
+        "url": ""
+    }
+
+]

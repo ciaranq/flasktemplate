@@ -1,0 +1,11 @@
+{% extends 'base.html' %} {% block content %}
+<h1>This is the Magento page mofos!</h1>
+<h2>Static JSON data 1=1</h2>
+
+{{ staticmage[1]["name"] }}
+{{ staticmage[2]["name"] }}
+{{ staticmage[1]["description"] }}
+{{ staticmage[2]["image_source"] }}
+
+
+{% endblock %}
