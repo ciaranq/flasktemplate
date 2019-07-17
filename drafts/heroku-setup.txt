@@ -1,0 +1,9 @@
+git status
+git remote -v 
+git remote add heroku 
+git remote add heroku https://git.heroku.com/project3-cjq.git
+git push -u heroku master
+
+
+
+sudo pip3 freeze --local > requirements.txt
