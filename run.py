@@ -1,14 +1,9 @@
-#! /usr/local/bin/python
-# Ciarans template on flask
-
-import json
 import os
-from flask import Flask, render_template, request, flash
-from pathlib import Path
-
+from flask import Flask
 
 app = Flask(__name__)
-app.secret_key = 'some_secret'
+
+
 @app.route('/')
 def hello():
     return "Hello World"
