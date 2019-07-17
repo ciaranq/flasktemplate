@@ -25,7 +25,7 @@ def index():
 def about():
     return render_template("about.html")
 
-# The contact page take a post and flashes to a screen a thank yu message.
+# The contact page take a post and flashes to a screen a thank you message.
 # Plan to add this json post data to a static or DB file.
 #
 @app.route('/contact', methods=["GET", "POST"])
