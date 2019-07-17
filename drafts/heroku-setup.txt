@@ -17,3 +17,10 @@ heroku logs --tail
 start the web process
 heroku ps:scale web=1
 
+
+restart all dynos and clear logs
+heroku restart 
+
+clear logs
+heroku drains
+heroku logs:drains clear
