@@ -59,6 +59,6 @@ def about_member(member_name):
 
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
-            port=os.environ.get('PORT', 5000),
+            port=os.environ.get(5000),
             # add a default for the port number
             debug=True)
