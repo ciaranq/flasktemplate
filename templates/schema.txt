@@ -1,0 +1,72 @@
+Your name, please? *
+We need to know who you are, so we can help you.
+Your email address? *
+We need to know how to reply with your CE; email is best!
+Your contact number? (Not required)
+If you'd like us to phone you rather, just give us your number and we'll 
+
+
+FULL STACK prides itself on delivering quality software on time with a fixed budget. How do we do this? Core to this is understanding which are your two priorities out of this triad; and what your constraints are. 
+Rank your time, quality, money priorities *
+High Priority of TIME means FAST. High priority of QUALITY means PRECISION. High priority of MONEY means CHEAP.
+Low (Meh...)	Medium (Needs to be a considered factor...)	High (Non-negotiable)
+TIME	
+QUALITY	
+MONEY	
+TIME	
+QUALITY	
+MONEY	
+What is your required level of quality? *
+We are using some everyday items as a way of indicating criticality of quality. All the solutions we develop is measured to a quality model agreed prior to commencement.
+Bicycle / I'm ok with repairing a puncture once in a while. 
+Car / I need it to work, day in and day out. 
+Jumbo Jet / I'm not at the controls but my life depends on it. 
+Space Craft / Never done before, "To infinity and beyond!"
+Other:
+When do you need to be DONE by? *
+As in, when do you need the software and/or solution in your hands?
+Date
+When do you need to be LIVE by?
+As in, when do you need the software and/or solution in the hands of your staff or consumers?
+Date
+How much money do you have budgeted for this? *
+Err... this is awkward. We love building software. We also need to get paid to keep us in coffee beans and electricity. So now is the time to tell us how much or little you have. Don't be afraid - we are happy to tailor your scope of work to your budget.
+
+How much money do you have budgeted for this? *
+Err... this is awkward. We love building software. We also need to get paid to keep us in coffee beans and electricity. So now is the time to tell us how much or little you have. Don't be afraid - we are happy to tailor your scope of work to your budget.
+34
+Even more awkward... Not to go all Linda Evangelista on you, but we don't get out of bed for less than 8000. If you are a past customer of ours, just call your account manager if you need a change request or small piece of work done; otherwise mail sales@fullstack.co.za
+
+Quality software requires precise specification and agreement. We will probably follow up with some questions along with our CE. This section gives you an opportunity to 'cut and paste' a brief, or at the very least give us a functional list of what you need from your software, and the form it should take. 
+The Brief
+Here we go... let it all out. Give us much detail as possible. The more detail, the more accurate the CE. If there is not sufficient information for us to quote on with this, we may need to drop you an email to follow up with you.
+What type of development is required? *
+Responsive Web Development (HTML5/JSON/REST)
+Native Mobile Application (iOS)
+Native Mobile Application (Android)
+Native Mobile Application (Other)
+Hybrid Mobile (Xamarin)
+Hybrid Desktop Mobile (Unity3D)
+Database Architecture and Design
+Bespoke Software Platform
+Other:
+Any technology you specifically need this developed in?
+C#
+JavaScript
+HTML5
+SQL
+ASP.NET MVC
+ASP.NET WEBAPI
+Java
+Node.JS
+Objective-C
+Swift
+NoSQL
+Other:
+
+
+
+
+
+
+

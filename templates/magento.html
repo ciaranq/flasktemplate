@@ -1,4 +1,9 @@
 {% extends 'base.html' %} {% block content %}
+{% include "nav.html" %}
+
+
+
+
 <h2>{{ page_title }}</h2>
 
 <p>HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and
@@ -31,5 +36,5 @@
 <hr class="featurette-divider">
 {% endif %}
 {% endfor %}
-
+{% include "footer.html" %}
 {% endblock %}
