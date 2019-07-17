@@ -5,5 +5,15 @@ git remote add heroku https://git.heroku.com/project3-cjq.git
 git push -u heroku master
 
 
-
+create the requirements file
 sudo pip3 freeze --local > requirements.txt
+
+Create a Procfile
+echo web: python run.py > Procfile
+
+check the logs
+heroku logs --tail
+
+start the web process
+heroku ps:scale web=1
+
