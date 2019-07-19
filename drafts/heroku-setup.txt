@@ -5,6 +5,19 @@ git remote add heroku https://git.heroku.com/project3-cjq.git
 git push -u heroku master
 
 
+
+clearing out your dependencies
+pip3 freeze --local
+pip3 freeze --local > requirements.txt
+sudo pip3 uninstall -r requirements.txt
+
+reinstall flask
+pip install Flask
+brew install flask
+sudo pip3 -H  install flask
+
+
+
 create the requirements file
 sudo pip3 freeze --local > requirements.txt
 
