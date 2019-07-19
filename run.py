@@ -60,7 +60,7 @@ def about_member(member_name):
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             # port=os.environ.get('PORT', 5000),
-            port=5000,
-            # port=int(os.environ.get('PORT')),
+            # port=5000,
+            port=int(os.environ.get('PORT')),
             # add a default for the port number
             debug=True)
