@@ -20,7 +20,7 @@ app.secret_key = 'some_secret'
 def index():
     return render_template("index.html", page_title="Heh Welcome Y'all", page_heading="We are team of awesome designers making websites with Full Stack stuff", cta="Get Started", list_stuff_wedo=["Bootstrap", "Django", "Flask", "Python", "Javascript"])
 
-
+# this is not used yet
 @app.route('/about')
 def about():
     return render_template("about.html")
@@ -60,7 +60,7 @@ def about_member(member_name):
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             # port=os.environ.get('PORT', 5000),
-            # port=5000,
-            port=int(os.environ.get('PORT')),
+            port=5000,
+            # port=int(os.environ.get('PORT')),
             # add a default for the port number
             debug=True)

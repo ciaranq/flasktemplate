@@ -1,3 +1,5 @@
+
+
 To do for project 3
 
 add a magento page
@@ -8,3 +10,16 @@ fix static path
 resixe the logos
 
 testing process
+
+
+time java vs php vs python
+
+
+import time
+start = time.time()
+a = range(100000)
+b = []
+for i in a:
+    b.append(i*2)
+end = time.time()
+print(end - start)

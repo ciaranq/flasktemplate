@@ -1,0 +1,160 @@
+    <!--==========================
+          Portfolio Section
+        ============================-->
+    <section id="portfolio">
+        <div class="container wow fadeInUp">
+            <div class="section-header">
+                <h3 class="section-title">Portfolio</h3>
+                <p class="section-description">This is the Tech we work with</p>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <ul id="portfolio-flters">
+                        <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">All
+                        </li>
+                        <li data-filter=".filter-app">Front End</li>
+                        <li data-filter=".filter-card">Back End</li>
+                        <li data-filter=".filter-logo">Ecommerce</li>
+                        <li data-filter=".filter-web">SEO & SEM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row" id="portfolio-wrapper">
+                <!-- Front End portfolio -->
+                <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/app1.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Front End 1</h4>
+                            <span>Bootstrap</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/app1.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Front End 2</h4>
+                            <span>HTML 5</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/app1.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Front End 3</h4>
+                            <span>CSS</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/app2.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Front End 4</h4>
+                            <span>Flask</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/app3.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Front End</h4>
+                            <span>Django</span>
+                        </div>
+                    </a>
+                </div>
+                <!-- Back End portfolio -->
+                <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/card1.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Card 1</h4>
+                            <span>Alored dono par</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/card2.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Card 2</h4>
+                            <span>Alored dono par</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item filter-card">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/card3.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Card 3</h4>
+                            <span>Alored dono par</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- ecommerce portfolio -->
+                <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/web1.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Web 1</h4>
+                            <span>Alored dono par</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/web2.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Web 2</h4>
+                            <span>Alored dono par</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item filter-web">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/web3.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Web 3</h4>
+                            <span>Alored dono par</span>
+                        </div>
+                    </a>
+                </div>
+                <!-- SEO & SEM portfolio -->
+                <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/logo1.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Logo 1</h4>
+                            <span>Alored dono par</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/logo3.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Logo 3</h4>
+                            <span>Alored dono par</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-6 portfolio-item filter-logo">
+                    <a href="">
+                        <img src="{{ url_for('static', filename='img/portfolio/logo2.jpg')}}" alt="">
+                        <div class="details">
+                            <h4>Logo 2</h4>
+                            <span>Alored dono par</span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- #portfolio -->

@@ -1,0 +1,45 @@
+    <!--==========================
+          About Us Section
+        ============================-->
+    <section id="about">
+        <div class="container">
+            <div class="row about-container">
+
+                <div class="col-lg-6 content order-lg-1 order-2">
+                    <h2 class="title">Few Words About Us</h2>
+
+                    <div class="icon-box wow fadeInUp">
+                        <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+                        <h4 class="title"><a href="">What We Do</a></h4>
+                        <p class="description">
+                            sent in a list from the run.py and displayed them here.
+                            {% for item in list_stuff_wedo %}
+                            {{item}}
+                            {% endfor%}
+
+                        </p>
+                    </div>
+
+                    <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="icon"><i class="fa fa-photo"></i></div>
+                        <h4 class="title"><a href="">How we do it</a></h4>
+                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                            officia deserunt
+                            mollit anim id est laborum</p>
+                    </div>
+
+                    <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="icon"><i class="fa fa-bar-chart"></i></div>
+                        <h4 class="title"><a href="">The benefits to you</a></h4>
+                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea
+                            commodo consequat tarad limino ata</p>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 background order-lg-2 order-1 wow fadeInRight"></div>
+            </div>
+
+        </div>
+    </section><!-- #about -->

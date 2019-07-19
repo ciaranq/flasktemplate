@@ -1,0 +1,140 @@
+What Skills do Front End Developers Use?
+HTML/CSS
+JavaScript
+jQuery
+JavaScript Frameworks
+Front End Frameworks
+CSS Preprocessors
+RESTful Services/APIs
+Responsive/Mobile Design
+Cross-Browser Development
+Content Management Systems
+Testing/Debugging
+Git/Version Control
+Problem Solving
+What’s Next?
+What Skills do Front End Web Developers Use?
+Front end web developers use three primary coding languages to code the website and web app designs created by web designers:
+
+HTML
+CSS
+JavaScript
+The code they write runs inside the user’s browser (as opposed to a back end developer, whose code runs on the web server). Think of it a little like this: the back end developer is like the engineer who designs and creates the systems that make a city work (electricity, water and sewer, zoning, etc.), while the front end developer is the one who lays out the streets and makes sure everything is connected properly so people can live their lives (a simplified analogy, but you get the rough idea). A front end web developer is also in charge of making sure that there are no errors or bugs on the front end, as well as making sure that the design appears as it’s supposed to across various platforms and browsers.
+
+I’ve combed through dozens of front end web developer job listings to see which skills are the most in-demand right now. These are the things that real employers are looking for in job applicants today (and will still be looking for in the near future). Master these things and you’re certain to land an awesome front end dev job!
+
+Skillcrush’s Front End Developer Blueprint is an online course designed to be completed in 3 months by spending an hour a day on the materials. In the course you’ll get a solid foundation en route to landing the developer job you’re after. You’ll start with skills like HTML and CSS, then move on to more advanced skills, like responsive web development, Git, and JavaScript. 
+
+(back to top)
+
+HTML & CSS
+HTML (Hyper Text Markup Language) and CSS (Cascading Style Sheets) are the most basic building blocks of web coding. Without these two things, you can’t create a website design, and all you’ll end up with is unformatted plain text on the screen. You can’t even add images to a page without HTML!
+
+Before you get started on any web development career path, you’ll have to master coding with HTML and CSS. The good news is that getting a solid working knowledge of either of these can be done in just a few weeks.
+
+The best part: HTML and CSS knowledge alone will let you build basic websites.
+
+(back to top)
+
+JavaScript
+JavaScript lets you add a ton more functionality to your websites, and you can create a lot of basic web applications using nothing more than HTML, CSS, and JavaScript (JS for short). On the most basic level, JS is used to create and control things like maps that update in real time, interactive films, and online games. Sites like Pinterest use JavaScript heavily to make their user interface easy to use (the fact that the page doesn’t reload whenever you pin something is thanks to JavaScript!).
+
+It’s also the most popular programming language in the world, so regardless of your dev career plans, it’s a super valuable thing to learn.
+
+Read more about JavaScript here: Tech 101: What is JavaScript?
+
+(back to top)
+
+jQuery
+jQuery is a JavaScript library: a collection of plugins and extensions that makes developing with JavaScript faster and easier. Rather than having to code everything from scratch, jQuery lets a front end web developer add ready-made elements to projects, then customize as necessary (one reason why knowing JavaScript is so important). You can use jQuery for things like countdown timers, search form autocomplete, and even automatically-rearranging and resizing grid layouts.
+
+(back to top)
+
+JavaScript Frameworks
+JS frameworks (including AngularJS, Backbone, Ember, and ReactJS) give a ready-made structure to your JavaScript code. There are different types of JavaScript frameworks for different needs, though the four mentioned are the most popular in actual job listings. These frameworks really speed up development by giving you a jumpstart, and can be used with libraries like jQuery to minimize how much from-scratch coding you have to do.
+
+(back to top)
+
+Front End Frameworks
+CSS and front end frameworks (the most popular front end framework is Bootstrap) do for CSS what JS Frameworks do for JavaScript: they give you a jumping-off point for faster coding. Since so much CSS starts with exactly the same elements from project to project, a framework that defines all of these for you upfront is super valuable. Most front end developer job listings expect you to be familiar with how these frameworks work and how to use them.
+
+(back to top)
+
+Experience with CSS Preprocessors
+Preprocessors are another element that a front end developer can use to speed up CSS coding. A CSS preprocessor adds extra functionality to CSS to keep our CSS scalable and easier to work with. It processes your code before you publish it to your website, and turns it into well-formatted and cross-browser friendly CSS. SASS and LESS are the two most in-demand preprocessors, according to real job listings.
+
+(back to top)
+
+Experience with RESTful Services and APIs
+Without getting too technical on this one, REST stands for Representational State Transfer. In basic terms, it’s a lightweight architecture that simplifies network communication on the web, and RESTful services and APIs are those web services that adhere to REST architecture. Read more about REST and RESTful services here.
+
+Let’s say you wanted to write an app that shows you all your social media friends in the order you became friends. You could make calls to Facebook’s RESTful API to read your friends list and return that data. The same thing with Twitter (which also uses RESTful APIs). The general process is the same for any service that uses RESTful APIs, just the data returned will be different.
+
+While it all sounds really complicated and technical, it’s a simple set of guidelines and practices that set expectations so you know how to communicate with a web service. They also make a web service perform better, scale better, work more reliably, and be easier to modify or move.
+
+(back to top)
+
+Take our <span>FREE</span> 3-Minute Quiz to See If a Career in Tech Is Right for You
+Take our FREE 3-Minute Quiz to See If a Career in Tech Is Right for You
+Our quick and easy quiz will help you pinpoint exactly how to get started in tech, in hardly any time at all.
+
+Email
+Skillcrush needs the contact information you provide to us to contact you about our products and services. You may unsubscribe from these communications at anytime. For information on how to unsubscribe, as well as our privacy practices and commitment to protecting your privacy, check out our Privacy Policy.
+Responsive and Mobile Design
+In the US alone, more people access the internet from their mobile device than from a desktop computer, so it’s no wonder that responsive and mobile design skills are super important to employers. Responsive design means that the site’s layout (and sometimes functionality and content) change based on the screen size and device someone is using.
+
+For example, when a website is visited from a desktop computer with a big monitor, a user would get multiple columns, big graphics, and interaction created specifically for mouse and keyboard users. On a mobile device, the same website would appear as a single column optimized for touch interaction, but using the same base files.
+
+Mobile design can include responsive design, but also includes creating separate mobile-specific designs. Sometimes the experience you want a user to have when visiting your site on a desktop computer is entirely different than what you want them to see when visiting from their smartphone, and in those cases it makes sense for the mobile site to be completely different. A bank website with online banking, for example, would benefit from a separate mobile site that lets users view things like the closest bank location and a simplified account view (since mobile screens are smaller).
+
+If you want to learn all about mobile design, check out the Secrets To Building Mobile Sites Users Love.
+
+(back to top)
+
+Cross-Browser Development
+Modern browsers are getting pretty good at displaying websites consistently, but there are still differences in how they interpret code behind the scenes. Until all modern browsers work perfectly with web standards, knowing how to make each of them work the way you want them to is an important skill. That’s what cross-browser development is all about.
+
+Read more about cross-browser compatibility here and here, or check out Daniel Herken’s Cross Browser Handbook for a deeper dive.
+
+(back to top)
+
+Content Management Systems and E-commerce Platforms
+Almost every website out there is built on a content management system (CMS). (E-commerce platforms are a specific type of CMS.) The most popular CMS worldwide is WordPress, which is behind-the-scenes of millions of websites (including Skillcrush!)—almost 60% of websites that use a CMS use WordPress.
+
+The other most popular CMSs include Joomla, Drupal, and Magento. While knowing these won’t put you in as much demand as being a WordPress expert, they can give you a niche that will be desirable among companies who use those systems (and there are plenty out there).
+
+Skillcrush’s Freelance WordPress Developer Blueprint is a great place to learn what you need to know to get started!
+
+(back to top)
+
+Testing and Debugging
+It’s a fact of life for a front end web developer: bugs happen. Being familiar with testing and debugging processes is vital.
+
+Unit testing is the process of testing individual blocks of source code (the instructions that tell a website how it should work), and unit testing frameworks provide a specific method and structure for doing so (there are different ones for each programming language).
+
+Another common type of testing is UI testing (also called acceptance testing, browser testing, or functional testing), where you check to make sure that the website behaves as it should when a user is actually taking actions on the site. You can write tests that will look for things like particular HTML on a page after an action is taken (like making sure that if a user forgets to fill out a required form field, that your form error box pops up).
+
+Debugging is simply taking all the “bugs” (errors) those tests uncover (or your users uncover once your site is launched), putting on your detective hat to figure out why and how they’re happening, and fixing the problem. Different companies use slightly different processes for this, but if you’ve used one, you can adapt to others pretty easily.
+
+(back to top)
+
+Git and Version Control Systems
+Version control systems let you keep track of changes that have been made to code over time. They also make it easy to revert back to an earlier version if you screw something up. So let’s say you add a customized jQuery plugin and suddenly half your other code breaks. Rather than having to scramble to manually undo it and fix all the errors, you can roll back to a previous version and then try again with a different solution.
+
+Git is the most widely used of these version control management systems. Knowing how to use Git is going to be a requirement for virtually any development job. This is one of those vital job skills that developers need to have, but that few actually talk about.
+
+(back to top)
+
+Problem Solving Skills
+If there’s one thing that all front end developers have to have, regardless of the job description or official title, it’s excellent problem solving skills. From figuring out how to best implement a design, to fixing bugs that crop up, to figuring out how to make your front end code work with the backend code being implemented, development is all about creative problem solving.
+
+Let’s say you’ve created a perfectly-functioning website front end, and you hand it over to the back end developers for them to integrate it with the content management system. All of a sudden, half your awesome features stop working. A good front end developer will view this as a puzzle to be solved, rather than a disaster in the making. Of course, an excellent, senior-level front end developer will anticipate these problems and try to prevent them in the first place!
+
+(back to top)
+
+What Next?
+If front end web development sounds pretty awesome to you, you’re probably wondering where to actually get started.
+
+If you’re pumped about working as a front end developer but not sure where to get the skills, you’re in the right place! Skillcrush’s Front End Developer Blueprint is an online course designed to be completed in 3 months by spending an hour a day on the materials.
+
+In the course you’ll get a solid foundation en route to landing the developer job you’re after. You’ll start with skills like HTML and CSS, then move on to more advanced skills, like responsive web development, Git, and JavaScript. 
