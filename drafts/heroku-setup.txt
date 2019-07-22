@@ -4,19 +4,14 @@ git remote add heroku
 git remote add heroku https://git.heroku.com/project3-cjq.git
 git push -u heroku master
 
-
-
 clearing out your dependencies
 pip3 freeze --local
 pip3 freeze --local > requirements.txt
 sudo pip3 uninstall -r requirements.txt
 
 reinstall flask
-pip install Flask
 brew install flask
 sudo pip3 -H  install flask
-
-
 
 create the requirements file
 sudo pip3 freeze --local > requirements.txt
@@ -30,10 +25,13 @@ heroku logs --tail
 start the web process
 heroku ps:scale web=1
 
-
 restart all dynos and clear logs
 heroku restart 
 
 clear logs
 heroku drains
 heroku logs:drains clear
+
+mongo
+mongo "mongodb+srv://quote-vj3wf.mongodb.net/quote" --username ciaran
+pass = Code2019
