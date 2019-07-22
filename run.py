@@ -33,7 +33,7 @@ def contact():
     if request.method == "POST":
         print(request.form["name"])
         flash("Thats cool {},we got your note!" .format(request.form["name"]))
-    return render_template("contact.html", heroimage="static/img/hero-bg.jpg", page_title="Touch base with us", page_heading="Book a coffee chat withn us, send a message or request a quote", cta="Let's do this")
+    return render_template("contact.html", heroimage="static/img/hero-contact.jpg", page_title="Touch base with us", page_heading="Book a coffee chat withn us, send a message or request a quote", cta="Let's do this")
 
 # Created a seperate page for the url_for('magento').
 #
@@ -60,7 +60,7 @@ def about_member(member_name):
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             # port=os.environ.get('PORT', 5000),
-            # port=5000,
-            port=int(os.environ.get('PORT')),
+            port=5000,
+            # port=int(os.environ.get('PORT')),
             # add a default for the port number
             debug=True)

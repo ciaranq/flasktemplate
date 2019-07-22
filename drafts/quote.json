@@ -1,0 +1,129 @@
+db.quote.insert({
+    name: "ciaran"
+});
+
+coll.insert({
+    name: "Mr. Smith",
+    email: "random@email.com",
+    phone: "0868090777",
+    rankQuality: "2",
+    rankTime: "1",
+    rankCost: "2",
+    expectedDate: "01/09/2019",
+    liveDate: "01/09/2019",
+    budget: "5000",
+    brief: "Becoming a fullstack web developer requires you to cover a lot of skills. For beginners it’s often not easy to find the right learning path and to gain quick result. At first sight it might be overwhelming to understand what you need to learn and how everything fits together at the end..",
+    typeDevelopment: "2",
+    technology: "1",
+    quoteStatus: "closed",
+    quoteDetails: "send me a quote that will meet my requirements",
+    quoteResponse: "sending the standard response"
+});
+
+coll.insert({
+    name: "Mr. Ross",
+    email: "random@email.com",
+    phone: "0868090777",
+    rankQuality: "3",
+    rankTime: "2",
+    rankCost: "1",
+    expectedDate: "01/09/2019",
+    liveDate: "01/09/2019",
+    budget: "10000",
+    brief: "This post will give you an overview of technologies you may consider to learn for being a fullstack developer in 2019 and beyond. We’ll start to take a look at the foundation and programming languages and then move forward to more advanced topics like frameworks and additional tools..",
+    typeDevelopment: "1",
+    technology: "2",
+    quoteStatus: "pending",
+    quoteDetails: "send me a quote that will meet my requirements",
+    quoteResponse: "sending the standard response"
+});
+
+coll.insert({
+    name: "ciaran",
+    email: "random@email.com",
+    phone: "0868090777",
+    rankQuality: "3",
+    rankTime: "3",
+    rankCost: "2",
+    expectedDate: "01/09/2019",
+    liveDate: "01/09/2019",
+    budget: "4000",
+    brief: "This list will provide guidance to find your path through the web development jungle in 2019. Together with a short description of the relevant topics this post contains link to great learning resources so that you can start quickly to expand your skill-set.",
+    typeDevelopment: "3",
+    technology: "1",
+    quoteStatus: "open",
+    quoteDetails: "send me a quote that will meet my requirements",
+    quoteResponse: "sending the standard response"
+});
+
+coll.insert({
+    name: "Mr. Smith",
+    email: "random@email.com",
+    phone: "0868090777",
+    rankQuality: "1",
+    rankTime: "2",
+    rankCost: "3",
+    expectedDate: "01/09/2019",
+    liveDate: "01/09/2019",
+    budget: "5000",
+    brief: "this is the detailed brief",
+    typeDevelopment: "4",
+    technology: "3",
+    quoteStatus: "closed",
+    quoteDetails: "send me a quote that will meet my requirements",
+    quoteResponse: "sending the standard response"
+});
+
+coll.insert({
+    name: "Mr. Ross",
+    email: "random@email.com",
+    phone: "0868090777",
+    rankQuality: "2",
+    rankTime: "1",
+    rankCost: "2",
+    expectedDate: "01/09/2019",
+    liveDate: "01/09/2019",
+    budget: "10000",
+    brief: "Becoming a fullstack web developer requires you to cover a lot of skills. For beginners it’s often not easy to find the right learning path and to gain quick result. At first sight it might be overwhelming to understand what you need to learn and how everything fits together at the end..",
+    typeDevelopment: "2",
+    technology: "4",
+    quoteStatus: "pending",
+    quoteDetails: "send me a quote that will meet my requirements",
+    quoteResponse: "sending the standard response"
+});
+
+coll.insert({
+    name: "ciaran",
+    email: "random@email.com",
+    phone: "0868090777",
+    rankQuality: "3",
+    rankTime: "2",
+    rankCost: "1",
+    expectedDate: "01/09/2019",
+    liveDate: "01/09/2019",
+    budget: "4000",
+    brief: "This post will give you an overview of technologies you may consider to learn for being a fullstack developer in 2019 and beyond. We’ll start to take a look at the foundation and programming languages and then move forward to more advanced topics like frameworks and additional tools..",
+    typeDevelopment: "1",
+    technology: "2",
+    quoteStatus: "open",
+    quoteDetails: "send me a quote that will meet my requirements",
+    quoteResponse: "sending the standard response"
+});
+
+coll.insert({
+    name: "Mr. Smith",
+    email: "random@email.com",
+    phone: "0868090777",
+    rankQuality: "3",
+    rankTime: "3",
+    rankCost: "2",
+    expectedDate: "01/09/2019",
+    liveDate: "01/09/2019",
+    budget: "5000",
+    brief: "This list will provide guidance to find your path through the web development jungle in 2019. Together with a short description of the relevant topics this post contains link to great learning resources so that you can start quickly to expand your skill-set.",
+    typeDevelopment: "3",
+    technology: "1",
+    quoteStatus: "closed",
+    quoteDetails: "send me a quote that will meet my requirements",
+    quoteResponse: "sending the standard response"
+});

@@ -1,0 +1,72 @@
+mongo
+# Download and install MongoDB client 4.0.6 for Atlas on old Cloud9
+wget -q https://git.io/fh7vV -O /tmp/setupmongodb.sh && source /tmp/setupmongodb.sh
+
+# Connect to the Mongo Database on Atlas
+mongo "mongodb+srv://quote-vj3wf.mongodb.net/quote" --username ciaran
+pass = Code2019
+
+show collections
+coll=db.quote
+
+// Show all collections in the current DB
+show collections
+
+// Use the `myFirstMDB` collection and store a reference to it in a
+// variable called `coll`
+coll = db.myFirstMDB;
+
+// Create some data
+coll.insert({
+    name::"ciaran"
+    email: "ciaran.quinlan@gmail.com"
+});
+
+db.quote.insert({
+    name::"ciaran"
+    email: "ciaran.quinlan@gmail.com"
+});
+
+
+// Find all of the documents in the collection
+coll.find()
+
+// Find all records that have a quoteStatus of open
+coll.find({quoteStatus: 'open'})
+
+// Find all records that have quoteStatus of open and budget 4000
+coll.find({budget: '4000', quoteStatus: 'open'});
+// Find all records that have quoteStatus of open and budget 4000 , `quality 1 or 2` 
+coll.find({quoteStatus: 'open', $or: [{rankQuality: '2'}, {rankQuality: '1'}]});
+
+
+
+// Find all records that have a gender of `f` and a
+// nationality of `american` or `irish` and sort them in an
+// ascending according to the quality
+coll.find({quoteStatus: 'open', $or: [{rankQuality: '2'}, {rankQuality: '1'}]}).sort({nationality: 1});
+
+
+// Update the first matching record
+coll.update({quoteStatus: 'open'}, {$set: {liveDate: '01/10/2019'}})
+
+// Update all matching records
+coll.update({quoteStatus: 'open'}, {$set: {liveDate: '01/10/2019'}},{multi:true})
+
+// Delete a record 
+coll.remove({email: 'kate', name: 'bush'})
+
+
+coll.find
+
+
+Connecting via python
+sudo pip3 install dnspython
+sudo -H pip3 install pymongo
+
+
+
+
+export MONGO_URI="mongodb+srv://ciaran:Code2019@quote-vj3wf.mongodb.net/quote?retryWrites=true&w=majority"
+
+
