@@ -8,13 +8,10 @@ from pathlib import Path
 
 
 app = Flask(__name__)
-
-
-app = Flask(__name__)
 app.secret_key = 'some_secret'
 
 # Passing in following variables to the html page
-# page_title, page_heading, cta.  - these are used in the hero imaage.
+# page_title, page_heading, cta.  - these are used on top of the hero imaage.
 #
 @app.route('/', methods=["GET", "POST"])
 def index():
@@ -26,7 +23,7 @@ def about():
     return render_template("about.html")
 
 # The contact page take a post and flashes to a screen a thank you message.
-# Plan to add this json post data to a static or DB file.
+# Plan to add this json post data to mongo DB file.
 #
 @app.route('/contact', methods=["GET", "POST"])
 def contact():
